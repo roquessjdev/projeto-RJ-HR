@@ -1,0 +1,39 @@
+
+body {
+    
+     margin: 0;
+     padding: 0;
+     height: 100%;
+     overflow: hidden;
+}
+
+ .animado {
+    height: 100vh;
+    background:linear-gradient(45deg, #3498db, #2ecc71) ;
+    background-size: 500% 500%;
+    animation: gradientAnimation 3s infinite;
+ }
+
+ @keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+input {
+    font: normal 18pt arial;
+    width: 100px;
+    border: 1;
+    border-color: saddlebrown;
+    border-style: groove; }
+
+    div#res {
+    margin-top: 20px;
+    font-style: oblique;
+}
